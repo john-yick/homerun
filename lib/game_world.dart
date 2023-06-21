@@ -167,7 +167,7 @@ class GameWorld extends Forge2DGame
 
       case GameState.complete:
         if (!gameFailed) {
-          /// Displays the Enter overlay screen if "Homerun" storage doesn't exist yet.
+          /// Displays the Enter overlay screen if "Homerun" storage doesn't exist yet
           if (storage.getStringList("HomeRun") == null) {
             overlayTitle = "High Score!";
             overlays.add('Enter');
